@@ -1,0 +1,241 @@
+.first{
+    width:100%;
+    height:150px;
+    background-color: #D4FAFC;
+    margin-bottom:20px;
+    background-image:url('https://st.depositphotos.com/3470617/4869/v/450/depositphotos_48698187-stock-illustration-medicine-icons.jpg');
+}
+body{
+    margin:0px;
+}
+.image{
+    width:110px;
+    height: 110px;
+    object-fit: cover;
+    position:relative;
+    left:30px;
+    top:20px;
+}
+.second,.hospital-profile{
+    padding-left:3%;
+} 
+.hospital_img{
+    width:10%;
+    height:10%;
+    float:left;
+}
+.second{
+    width:95%;
+    height:fit-content;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:15px;
+    padding-bottom:30px;
+    margin-left:10px;
+}
+.hospital-profile{
+    margin-left:10%;
+}
+.button{
+    margin-top:1.5%;
+    background: #d9c634;
+    background-image: -webkit-linear-gradient(top, #d9c634, #b8772c);
+    background-image: -moz-linear-gradient(top, #d9c634, #b8772c);
+    background-image: -ms-linear-gradient(top, #d9c634, #b8772c);
+    background-image: -o-linear-gradient(top, #d9c634, #b8772c);
+    background-image: linear-gradient(to bottom, #d9c634, #b8772c);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border:none;
+  }
+  h2{
+    font-size:35px;
+    font-family: 'Rubik', sans-serif;
+  }
+  p{
+    font-family: 'Manrope', sans-serif;
+  }
+  .third{
+    width:95%;
+    height:fit-content;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top:15px;
+    padding-bottom:30px;
+    margin-left:10px;
+    padding-left:35px;
+    margin-top:2%;
+    margin-bottom:2%;
+    padding-right:30px;
+  }
+
+  .table-element_2{
+   position:relative;
+   left:15%;
+  }
+  .button_1{
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:none;
+  }
+  
+  .button_1:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .button_2{
+    background: #34d997;
+    background-image: -webkit-linear-gradient(top, #34d997, #2bb85e);
+    background-image: -moz-linear-gradient(top, #34d997, #2bb85e);
+    background-image: -ms-linear-gradient(top, #34d997, #2bb85e);
+    background-image: -o-linear-gradient(top, #34d997, #2bb85e);
+    background-image: linear-gradient(to bottom, #34d997, #2bb85e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 40px;
+    text-decoration: none;
+    border:none;
+  }
+  
+  .button_2:hover {
+    background: #3cfcd6;
+    background-image: -webkit-linear-gradient(top, #3cfcd6, #34d997);
+    background-image: -moz-linear-gradient(top, #3cfcd6, #34d997);
+    background-image: -ms-linear-gradient(top, #3cfcd6, #34d997);
+    background-image: -o-linear-gradient(top, #3cfcd6, #34d997);
+    background-image: linear-gradient(to bottom, #3cfcd6, #34d997);
+    text-decoration: none;
+  }
+  .direction-img{
+    height:20px;
+    width:20px;
+    position:relative;
+    left:13%;
+  }
+  .text{
+    font-size:25px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color:#FFE7CC;
+    display:inline-block;
+  }
+  .image_5{
+    width:20px;
+    height:20px;
+    border-color:aliceblue;
+}
+.button_3{
+    position:relative;
+    bottom:190px;
+    left:90px;
+    color:#FEA1A1;
+}
+.btn{
+    border:0px;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px #3C486B;
+}
+.option4{
+    position:relative;
+    left:8%;
+}
+.option_1{
+    position:relative;
+    left:0;
+}
+.option2{
+    position:relative;
+    left:8%; 
+}
+.option3{
+    position:relative;
+    left:8%;
+}
+.option5{
+    position:relative;
+    left:8%;
+}
+.done{
+    padding-bottom:40px;
+}
+.btn_1{
+    padding:15px 10px;
+    background-color: white;
+    border:none;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn_2{
+    padding:15px 10px;
+    background-color: white;
+    border:none;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn_3{
+    padding:15px 10px;
+    background-color: white;
+    border:none;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn_4{
+    padding:15px 10px;
+    background-color: white;
+    border:none;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn_5{
+    padding:15px 10px;
+    background-color: white;
+    border:none;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.img{
+   width:8%;
+   height:8%;
+}
+span{
+    color:black;
+}
+.heading{
+    position:relative;
+    left:40%;
+    bottom:60%;
+    font-size:40px;
+    font-family: 'Inter', sans-serif;
+    color:#0A4D68;
+}

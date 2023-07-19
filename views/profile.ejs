@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Profile Page</title>
+</head>
+<link rel="stylesheet" href="css/styles4.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans:wght@300&family=Leckerli+One&family=Merriweather:wght@300&family=Montserrat&family=PT+Sans&family=Patrick+Hand&family=Poppins&family=Rancho&family=Roboto:wght@300&family=Rubik:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+<body>
+    <div class="initial">
+        <h1>HospitaLCare</h1>
+       <img class="image_3" src="https://us.123rf.com/450wm/mantinov/mantinov2004/mantinov200400007/143789285-help-for-health-icon-logo-vector-graphic-design-helping-hands-inside-medical-cross-sign.jpg?ver=6" alt="logo">
+        <img class="image_1" src="css/account.png" alt="profile-img">
+        <img class="image_4" src="https://icon-library.com/images/plus-icon-transparent/plus-icon-transparent-11.jpg" alt="plus-img">
+        <p>Create More Profile </p>
+        
+    </div>
+    <div>
+        <h2>PROFILE</h2>
+        <div class="second">
+        <form action="/create-profile" method= "post">
+            <label class="label">YourEmail:
+            <input type="email" name="YourEmail" value="">
+            </label>
+            <br>
+            <label class="label">Name:
+            <input type="text" name="YourName" value="">
+            </label>
+            <br>
+            <label class="label">Blood Group:
+            <input type="text" name="BloodGroup" value="">
+            </label>
+            <br>
+            <label class="label">Height:
+            <input type="number" name="height" value="">
+            </label>
+            <br>
+            <label class="label">Weight:
+            <input type="number" name="weight" value="">
+            </label>
+            <br>
+            <label class="label">Phone No:
+            <input type="number" name="PhoneNo" value="">
+            </label>
+            <br>
+            <label class="label">Gender:
+            <table class="table">
+                <tr>
+                    <td><input type="radio" name="Gender" value="Female">
+                    <label class="label_1">FEMALE</label>
+                    </td>
+                    <td><input class="male-class" type="radio" name="Gender" value="Male">
+                    <label class="label_1">MALE</label>
+                    </td>
+                </tr>
+            </table>
+            </label>
+            <label class="label">Address:
+            <textarea class="address" name="YourAddress" rows="5" cols="20"></textarea>
+            </label>
+            <!--<a class="btn" href="">submit</a>--->
+            <button class="btn" type="submit"> Submit</button>
+        </form>
+    </div>
+    </div>
+    
+</body>
+</html>

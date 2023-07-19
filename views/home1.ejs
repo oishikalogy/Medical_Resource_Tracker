@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nearest Hospitals with Specialists</title>
+<link href="/css/styles6.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Barlow+Condensed:wght@300&family=Fira+Sans:wght@300&family=Inter&family=Lato&family=Manrope:wght@500&family=Montserrat&family=Nunito+Sans&family=Open+Sans&family=PT+Sans&family=Poppins&family=Public+Sans:wght@300&family=Rancho&family=Roboto:wght@300&family=Rubik:wght@300&family=Sacramento&family=Ysabeau:wght@400;500&display=swap" rel="stylesheet">
+<body>
+	<div class="first">
+		<img class="image" src="https://us.123rf.com/450wm/mantinov/mantinov2004/mantinov200400007/143789285-help-for-health-icon-logo-vector-graphic-design-helping-hands-inside-medical-cross-sign.jpg?ver=6" alt="logo">
+		<form method= "post" action="/search">
+    <table>
+        <tr>
+			<td class="table-row">
+                 <input class="one" type="text" name="location" placeholder="Search Location">
+                 <img class="image_1" src="images/place.png">
+                 <button type="submit" class="submit-button">🔍</button>\                
+            </td>
+            </tr>
+    </table>
+</form>
+				<form method= "post" action="/resourcesearch">
+    <table>
+        <tr>
+            <td class="table-row">
+                <input  class="another" type="text" name="resource" placeholder="Search Resource">
+                <button type="submit" class="resource">🔍</button>
+                
+            </td>
+        </tr>
+    </table>
+</form>
+	<!--<div class="second">
+	</div>
+		<h1 class="first_text">Nearest Hospitals with Specialists</h1>
+		<input class="search" type="text" name="" placeholder="Search Catagory">
+		<a href=""><img class="search-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiNPUgvMpxFPkwnFzKwVktK4gXvoUgYrOJoQ&usqp=CAU"></a>-->
+	<h2 class="second_text">Most searched Hospitals:</h2>
+	<table>
+<tr>
+	<td class="b1"style="padding-top:18px" ><button class="button1" onclick="/search">Ophthalmology</button>
+	<img class="image1" src="images/eye.png" alt="eye-img">
+	</td>
+	<td class="b2" ><button class="button2" onclick="showSpecialists('oncologists')">Oncologists</button>
+	<img class="image2" src="images/oncology.png"  alt="onco-img">
+	</td>
+	<td class="b1" ><button class="button1" onclick="showSpecialists('dermatologists')">Dermatologists</button>
+	<img class="image3" src="images/dermetology.png"  alt="derma-img">
+	</td>
+</tr>
+<tr>
+	<td class="b2" ><button  class="button2" onclick="showSpecialists('pediatricians')">Pediatricians</button>
+	<img class="image4" src="images/pediatrics.png" alt="pediatrics-img">
+	</td>
+	<td class="b1" ><button  class="button1" onclick="showSpecialists('pediatricians')">Neurologist</button>
+	<img class="image5" src="images/brain.png" alt="neuro-img">
+	</td>
+	<td class="b2" ><button  class="button2" onclick="showSpecialists('pediatricians')">Orthopedic surgeon</button>
+	<img class="image6" src="images/orthopedic.png" alt="orthopedic-img">
+	</td>
+</tr>
+<tr>
+	<td class="b1" ><button  class="button1" onclick="showSpecialists('pediatricians')">Cardiologists</button>
+	<img class="image7" src="images/cardiology.png" alt="cardio-img">
+	</td>
+	<td class="b2" ><button class="button2" onclick="showSpecialists('pediatricians')">Gynecologist</button>
+	<img class="image8" src="images/gyno.png" alt="gyno-img">
+	</td>
+	<td class="b1" ><button  class="button1" onclick="showSpecialists('pediatricians')">Gastroenterologist</button>
+	<img class="image9" src="images/gastroenterology.png" alt="gastro-img">
+	</td>
+</tr>
+</table>
+	</div>
+</body>
+</html>

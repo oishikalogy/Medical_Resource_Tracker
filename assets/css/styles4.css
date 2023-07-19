@@ -1,0 +1,137 @@
+.initial{
+    background-color:#98DFD6;
+     height:200px;
+}
+h2{
+    margin: 0 0 0 0;
+    text-align:center;
+    padding:7% 0 7% 0;
+    font-size:60px;
+    font-family: 'Rancho', cursive;
+    color:#2F0F5D;
+}
+body{
+    margin:0 0;
+    background-image: url(https://img.freepik.com/free-photo/blue-watercolor-leaf-background-aesthetic-winter-season_53876-128738.jpg?w=900&t=st=1681305746~exp=1681306346~hmac=905274d78d5002312e346d5e4ca22bb6e9628da6708a862b773e318d804855a8);
+}
+.image_1{
+    height:100px;
+    width:100px;
+    position:absolute;
+    right:5%;
+    padding-top:30px;
+}
+p{
+    margin-top:0;
+    position:absolute;
+    right:4%;
+    top:24%;
+    font-family: 'PT Sans', sans-serif;
+}
+.form{
+    display:inline;
+}
+.second{
+    width:40%;
+    margin:0 auto 100px auto;
+    padding:40px;
+    padding-bottom:200px;
+    background-color:#C0DBEA;
+}
+input[type=text]{
+    margin-top:15px;
+    margin-bottom:30px;
+    padding:10px;
+    width:100%;
+    border-radius:20px;
+    border:none;
+    line-height:30px;
+}
+input[type=number]{
+    margin-top:15px;
+    margin-bottom:30px;
+    padding:10px;
+    width:100%;
+    border-radius:20px;
+    border:none;
+    line-height:30px;
+}
+.address{
+    margin-top:15px;
+    border-radius:20px;
+    padding:10px;
+    width:100%;
+    
+}
+.table{
+    padding:30px 0 30px 0;
+}
+.male-class{
+    margin-left:30px;
+}
+.label{
+    margin-bottom:10px;
+    font-size:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.image_2{
+    height:30px;
+    width:30px;
+    position:absolute;
+    right:1%;
+    top:23%;
+}
+.image_3{
+    height:150px;
+    width:150px;
+    position:absolute;
+    background-color:#98DFD6;
+    left:20px;
+    top:25px;
+}
+h1{
+    display:inline-block;
+    position:absolute;
+    left:40%;
+    top:6%;
+    font-size:50px;
+    font-family: 'PT Sans', sans-serif;
+}
+.label_1{
+    font-family: 'PT Sans', sans-serif;
+}
+.btn {
+    background: #3A98B9;
+    background-image: -webkit-linear-gradient(top, #3A98B9, #2F58CD);
+    background-image: -moz-linear-gradient(top, #3A98B9, #2F58CD);
+    background-image: -ms-linear-gradient(top, #3A98B9, #2F58CD);
+    background-image: -o-linear-gradient(top, #3A98B9, #2F58CD);
+    background-image: linear-gradient(to bottom, #3A98B9, #2F58CD);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position:relative;
+    top:80px;
+    left:200px;
+  }
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .image_4{
+    width:40px;
+    height:40px;
+    position:absolute;
+    right:10px;
+    top:130px;
+  }

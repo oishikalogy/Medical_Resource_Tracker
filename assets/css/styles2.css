@@ -1,0 +1,104 @@
+h1{
+    color:#002B5B;
+    text-shadow: 2px 3px 5px #3795BD;
+    font-size:70px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:45px;
+}
+h3{
+    color:#002B5B;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:30px;
+}
+body{
+    text-align:center;
+    background-color:#CBE4DE;
+    background-image:url("https://thumbs.dreamstime.com/b/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg");
+}
+.content{
+    text-align:center;
+    padding:50px;
+}
+.second{
+    position:absolute;
+    left:450px;
+    top:350px;
+    font-size:10px;
+}
+
+.first{
+    font-size:26px;
+    background-color: hwb(158 2% 33%);
+    border: none;
+    padding: 16px 35px;
+    text-decoration: none;
+    margin: 4px 2px;
+    position:absolute;
+    left:400px;
+    border:none;
+    border-radius:20px;
+    font-family: 'Rubik', sans-serif;
+}
+input[type=text]{
+        width: 40%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border:none;
+        border-radius:20px;
+        font-family: 'Rubik', sans-serif;
+}
+input[type=email]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-radius:20px;
+    font-family: 'Rubik', sans-serif;
+}
+input[type=number]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-radius:20px;
+    font-family: 'Rubik', sans-serif;
+}
+input[type=password]{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:none;
+    border-radius:20px;
+    font-family: 'Rubik', sans-serif;
+}
+label{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.imp{
+    background-color:aliceblue;
+    width:800px;
+    height:400px;
+    position:absolute;
+    left:500px;
+    top:300px;
+    padding:80px 0 0 0;
+}
+.why{
+    background-color:#95BDFF;
+}
+.signup{
+    position:absolute;
+    bottom:30px;
+    left:320px;
+    display:inline;
+}
+a{
+    position:absolute;
+    bottom:45px;
+    left:445px;
+}
